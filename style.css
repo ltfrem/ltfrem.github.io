@@ -1,0 +1,23 @@
+body {
+  background-color: lightgray;
+
+}
+main div {
+  align: center;
+}
+nav {
+	font-family: Lucida, "Times New Roman", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li {
+	background-color: #000066;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+}
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
