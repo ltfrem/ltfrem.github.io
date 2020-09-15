@@ -2,6 +2,7 @@ body {
   background-attachment: fixed;
   background-image: url('https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg');
   background-color: #eeede7;
+  opacity: 0.9;
 }
 header {
   color: #868b8e;
