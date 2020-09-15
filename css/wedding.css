@@ -1,12 +1,25 @@
 body {
-  background-color: #bcdfae;
+  background-attachment: fixed;
+  background-image: url('https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg');
+  background-color: #eeede7;
 }
-main div {
-  color: #404640;
+header {
+  color: #868b8e;
+  font-family: Cambria, Georgia, serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+main {
+  color: #868b8e;
+  background-color: #eeede7;
+  font-family: Calibri, sans-serif;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
 }
 nav {
 	font-family: Lucida, "Times New Roman", sans-serif;
-	font-size: 2em;
+	font-size: 1.2em;
 	font-weight: bold;
 	text-align: center;
   color: 	#708d60;
@@ -30,14 +43,10 @@ nav li a {
 	color: #708d60;
 	text-decoration: none;
 }
-#links {
-  text-align: right;
+main div img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
-#links li {
-  list-style-type: none; /* no bullets in list */
-}
-footer {
-  text-align: center;
-  color: #404640;
-}
-/* soft ogre color palette: https://www.color-hex.com/color-palette/97142 */
+
+/* habitar urbano color palette: https://www.color-hex.com/color-palette/97742 */

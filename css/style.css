@@ -3,13 +3,24 @@ body {
 }
 main div {
   color: #404640;
+  font-family: Georgia, sans-serif;
+}
+main div a {
+  color: #5588C6;
+}
+main div a:hover {
+  color: #165E79;
+}
+main div a:visited {
+  color: #8D52A9;
 }
 nav {
-	font-family: Lucida, "Times New Roman", sans-serif;
-	font-size: 2em;
+	font-family: Calibri, serif;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
   color: 	#708d60;
+  padding: 0.8em;
 }
 nav ul {
 	padding: 0;
@@ -29,6 +40,9 @@ nav li {
 nav li a {
 	color: #708d60;
 	text-decoration: none;
+}
+nav li a:hover {
+  color: #DBDEE1;
 }
 #links {
   text-align: right;
