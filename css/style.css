@@ -9,6 +9,7 @@ body {
   color: #2c3e50;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  border-bottom: 8px solid #f39c12;
 }
 header {
   background-color: #7f8c8d;
@@ -55,16 +56,16 @@ a:link, a:visited {
   text-decoration: underline;
 }
 a:hover {
-  color: #c0392b;
+  color: #f39c12;
   text-decoration: none;
 }
 a:active {
-  color: #f39c12;
+  color: #c0392b;
   text-decoration: none;
 }
 /* invert colors */
 .logos a:hover {
-  -webkit-filter: invert(100%) !important;
+  -webkit-filter: invert(100%);
 }
 ul {
   list-style: square;
@@ -77,3 +78,4 @@ h6 {
 .hyphen {
   text-align: center;
 }
+/* https://flatuicolors.com/palette/defo */
