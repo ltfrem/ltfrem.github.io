@@ -6,7 +6,7 @@
 
 body {
   background-color: #bdc3c7;
-  color: #000;
+  color: #2c3e50;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -24,7 +24,8 @@ main {
   background-color: #ecf0f1;
   width: 825px;
   margin: 0 auto;
-  height: 550px;
+  height: 700px;
+  padding: 20px;
 }
 
 .scrollable {
@@ -36,7 +37,7 @@ h2 {
   font-size: 32px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #2c3e50;
+  color: #f39c12;
 }
 
 .logos {
@@ -51,11 +52,15 @@ footer {
 }
 a:link, a:visited {
   cursor: pointer;
-  color: #000;
+  color: #2c3e50;
   text-decoration: underline;
 }
 a:hover {
-  color: #16a085;
+  color: #c0392b;
+  text-decoration: none;
+}
+a:active {
+  color: #f39c12;
   text-decoration: none;
 }
 /* invert colors */
@@ -63,6 +68,10 @@ a:hover {
   -webkit-filter: invert(100%) !important;
 }
 ul {
+  list-style: square;
   list-style-position: inside;
   padding: 10px;
+}
+h6 {
+    color: #f39c12;
 }
