@@ -1,61 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #bcdfae;
+  background-color: #bdc3c7;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
-main div {
-  color: #404640;
-  font-family: Georgia, sans-serif;
+header {
+  background-color: #7f8c8d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  padding: 10px;
 }
-main div a {
-  color: #5588C6;
+main {
+  background-color: #ecf0f1;
+  width: 825px;
+  margin: 0 auto;
+  height: 550px;
 }
-main div a:hover {
-  color: #165E79;
+
+.scrollable {
+  margin: 0 auto;
+  height: 100%;
 }
-main div a:visited {
-  color: #8D52A9;
+h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
 }
-nav {
-	font-family: Calibri, serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-  color: 	#708d60;
-  padding: 0.8em;
+
+.logos {
+  justify-content: flex-end;
 }
-nav ul {
-	padding: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
-nav li {
-	background-color: #a9cc98;
-	border-radius: 1em;
-	list-style-type: none;
-	margin: 0.3em;
-	padding: 0.4em;
-  display: inline;
-}
-/* Style changes navigation link text color to white and removes the underline */
-nav li a {
-	color: #708d60;
-	text-decoration: none;
-}
-nav li a:hover {
-  color: #DBDEE1;
-}
-#links {
-  text-align: right;
-}
-#links li {
-  list-style-type: none; /* no bullets in list */
-}
+
 footer {
   text-align: center;
-  color: #404640;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-/* soft ogre color palette: https://www.color-hex.com/color-palette/97142 */
+a:link, a:visited {
+  cursor: pointer;
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #16a085;
+  text-decoration: none;
+}
+/* invert colors */
+.logos a:hover {
+  -webkit-filter: invert(100%) !important;
+}
+ul {
+  list-style-position: inside;
+  padding: 10px;
+}
