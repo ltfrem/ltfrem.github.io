@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   height: 100%;
-  border-bottom: 8px solid #f39c12;
+  /* border-bottom: 8px solid #f39c12; */
 }
 header {
   /* background-color: #7f8c8d; */
@@ -22,33 +22,35 @@ header {
   position: sticky;
   top: 0;
   padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 main {
   background-color: #ecf0f1;
   width: 800px;
   margin: 0 auto;
   padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
-
-.scrollable {
+/* .scrollable {
   margin: 0 auto;
   height: 100%;
-}
+} */
 h2 {
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 700;
   color: #f39c12;
 }
-
-.logos {
-  justify-content: flex-end;
-
-}
 .ionicon {
-  stroke: #f39c12;
   height: 50px;
   width: 50px;
+}
+.icon,.icon:visited {
+  fill: #ecf0f1;
+}
+.icon:hover,
+.icon:active {
+  fill: #f39c12;
 }
 
 /* footer {
@@ -71,9 +73,9 @@ a:active {
   text-decoration: none;
 }
 /* invert colors */
-.logos a:hover {
+/* .logos a:hover {
   -webkit-filter: invert(100%);
-}
+} */
 ul {
   list-style-position: inside;
   padding: 10px;
