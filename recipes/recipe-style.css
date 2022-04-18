@@ -12,13 +12,13 @@ main {
   padding: 10px 140px 10px 140px;
 }
 main a {
-  color: #5588C6;
+  color: #5588c6;
 }
 main a:hover {
-  color: #165E79;
+  color: #165e79;
 }
 main a:visited {
-  color: #8D52A9;
+  color: #8d52a9;
 }
 .row {
   clear: both;
@@ -28,34 +28,34 @@ main a:visited {
   float: left;
 }
 nav {
-	font-family: Calibri, serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-  color: 	#708d60;
+  font-family: Calibri, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #708d60;
   padding: 0.8em;
 }
 nav ul {
-	padding: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
 nav li {
-	background-color: #a9cc98;
-	border-radius: 1em;
-	list-style-type: none;
-	margin: 0.3em;
-	padding: 0.4em;
+  background-color: #a9cc98;
+  border-radius: 1em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
   display: inline;
 }
 /* Style changes navigation link text color to white and removes the underline */
 nav li a {
-	color: #708d60;
-	text-decoration: none;
+  color: #708d60;
+  text-decoration: none;
 }
 nav li a:hover {
-  color: #DBDEE1;
+  color: #dbdee1;
 }
 #links {
   text-align: right;
@@ -63,12 +63,8 @@ nav li a:hover {
 #links li {
   list-style-type: none; /* no bullets in list */
 }
-footer {
+#servings {
   text-align: center;
   color: #404640;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
 }
 /* calming blue and orange color palette: https://www.color-hex.com/color-palette/99472 */
