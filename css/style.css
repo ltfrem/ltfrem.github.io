@@ -7,7 +7,7 @@
 body {
   background-color: #bdc3c7;
   color: #2c3e50;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   height: 100%;
   /* border-bottom: 8px solid #f39c12; */
@@ -45,7 +45,8 @@ h2 {
   height: 50px;
   width: 50px;
 }
-.icon,.icon:visited {
+.icon,
+.icon:visited {
   fill: #ecf0f1;
 }
 .icon:hover,
@@ -59,7 +60,8 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
 } */
-a:link, a:visited {
+a:link,
+a:visited {
   cursor: pointer;
   color: #2c3e50;
   text-decoration: underline;
@@ -82,9 +84,12 @@ ul {
   padding: 10px;
 }
 h6 {
-    color: #f39c12;
+  color: #f39c12;
 }
 .hyphen {
+  text-align: center;
+}
+#strava {
   text-align: center;
 }
 /* https://flatuicolors.com/palette/defo */
