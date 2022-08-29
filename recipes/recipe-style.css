@@ -1,5 +1,5 @@
 body {
-  background-color: #f6e2ba;
+  background-color: #f2f1dd;
 }
 h1 {
   text-align: center;
@@ -29,7 +29,7 @@ main a:visited {
 }
 nav {
   font-family: Calibri, serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   text-align: center;
   color: #708d60;
@@ -42,7 +42,7 @@ nav ul {
 }
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
 nav li {
-  background-color: #a9cc98;
+  /*background-color: #a9cc98; */
   border-radius: 1em;
   list-style-type: none;
   margin: 0.3em;
