@@ -1,14 +1,15 @@
 body {
   background-color: #f2f1dd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 h1 {
   text-align: center;
   color: #779ba1;
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
 }
 main {
   color: #897a74;
-  font-family: Helvetica, sans-serif;
   padding: 10px 140px 10px 140px;
 }
 main a {
@@ -18,7 +19,7 @@ main a:hover {
   color: #165e79;
 }
 main a:visited {
-  color: #8d52a9;
+  color: #5588c6;
 }
 .row {
   clear: both;
@@ -28,7 +29,6 @@ main a:visited {
   float: left;
 }
 nav {
-  font-family: Calibri, serif;
   font-size: 1.3em;
   font-weight: bold;
   text-align: center;
